@@ -1,9 +1,11 @@
 # jquery.runCode.js
 代码在线编辑预览插件
 
+**[[demo地址]](http://denghao.me/demo/2017/jquery.runCode/demo.html "demo")**
+
 ![](./demo.jpg)
 
-###步骤/steps:
+### 步骤/steps:
 1. 在`<head>`头部引入jquery.runCode.css
 
 		<link rel="stylesheet" href="./jquery.runCode.css">
@@ -28,10 +30,13 @@
 		$(".playcode").runCode();
 
 
-###可选参数/options:
+### 可选参数/options:
 
 | 参数名     |  默认值            |      说明               |
 | --------- |:-----------------:| -------------------------:|
 | watch     | false （boolean）  | 是否监听修改，以便自动运行代码 |
 | width     | 96% (string)      | 弹窗宽度，单位%或px         |
 | height    | 90% (string)      | 弹窗高度，单位%或px         |
+
+**[[demo地址]](http://denghao.me/demo/2017/jquery.runCode/demo.html "demo")**
+
