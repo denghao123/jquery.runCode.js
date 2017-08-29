@@ -5,7 +5,7 @@
 
 ![](./demo.jpg)
 
-### 步骤/steps:
+#### 步骤/steps:
 1. 在`<head>`头部引入jquery.runCode.css
 
 		<link rel="stylesheet" href="./jquery.runCode.css">
@@ -30,7 +30,7 @@
 		$(".playcode").runCode();
 
 
-### 可选参数/options:
+#### 可选参数/options:
 
 | 参数名     |  默认值            |      说明               |
 | --------- |:-----------------:| -------------------------:|
