@@ -78,7 +78,7 @@
 
         if (isChecked) {
           watchTimer && clearTimeout(watchTimer);
-          var watchTimer = setTimeout(() => {
+          var watchTimer = setTimeout(function() {
             self.run(self.$codeContent.text())
           }, 600)
         }
