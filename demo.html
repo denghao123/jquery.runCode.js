@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta name="author" content="DH">
+<title>代码预览插件jquery.runCode.js</title>
+<link rel="stylesheet" href="./jquery.runCode.css">
+<style>
+.playcode{
+    width: 400px;
+    height: 100px;
+    background-color: #f3f3f3;
+}
+</style>
+</head>
+<body>
+<div class="main">
+    <textarea class="playcode"></textarea> <br>
+    <button id="start">run code</button>
+</div>
+
+<script src="./jquery.min.js"></script>
+<script src="./jquery.runCode.js"></script>
+<script>
+var str="<h1>runCode.js</h1>\n\n\<style\>h1{color:red}\</style\>\n\n\<script\>document.write('代码预览插件')\</script\>";
+$(".playcode").text(str)
+
+
+$("#start").on('click', function() {
+    $(".playcode").runCode();
+})
+</script>
+</body>
+</html>
