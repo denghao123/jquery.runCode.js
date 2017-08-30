@@ -88,7 +88,7 @@
         self.$previewWrap.remove();
       });
     },
-    escape2Html(str) {
+    escape2Html: function(str) {
       var arrEntities = {
         'lt': '<',
         'gt': '>',
