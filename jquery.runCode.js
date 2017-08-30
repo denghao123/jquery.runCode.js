@@ -73,9 +73,8 @@
         self.$iframeDoc.close();
       });
 
-      this.$codeContent.on('input', function(e) {
+      this.$codeContent.on('keydown', function(e) {
         var isChecked = self.$watchCode.is(':checked');
-
         if (isChecked) {
           watchTimer && clearTimeout(watchTimer);
           var watchTimer = setTimeout(function() {
